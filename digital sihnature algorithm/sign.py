@@ -1,35 +1,37 @@
-from miller import *
+# from miller import *
 import sys
 import hashlib
-import math
+# import math
+import random
+from Crypto.Util.number import inverse
 
 #function to compute inverse
-def computeInverse (in1,in2):
-    aL = [in1]
-    bL = [in2]
-    tL = [0]
-    t = 1
-    sL = [1]
-    s = 0
-    q = math.floor((aL[0]/bL[0]))
-    r = (aL[0] - (q*bL[0]))
+# def computeInverse (in1,in2):
+#     aL = [in1]
+#     bL = [in2]
+#     tL = [0]
+#     t = 1
+#     sL = [1]
+#     s = 0
+#     q = math.floor((aL[0]/bL[0]))
+#     r = aL[0] - (q*bL[0])
 
-    while r > 0 :
-        temp = (tL[0] - (q*bL[0]))
-        tL[0] = t
-        t = temp
-        temp = (sL[0] - (q*s))
-        sL[0] = s
-        s = temp
-        aL[0] = bL[0]
-        bL[0] = r
-        q = math.floor(aL[0]/bL[0])
-        r = (aL[0] - (q*bL[0]))
+#     while r > 0 :
+#         temp = tL[0] - (q*bL[0])
+#         tL[0] = t
+#         t = temp
+#         temp = sL[0] - (q*s)
+#         sL[0] = s
+#         s = temp
+#         aL[0] = bL[0]
+#         bL[0] = r
+#         q = math.floor(aL[0]/bL[0])
+#         r = aL[0] - (q*bL[0])
 
-    r = bL[0]
+#     r = bL[0]
 
-    inverse = s % in2
-    return inverse
+#     inverse = s % in2
+#     return inverse
 
 
 def squareAndMultiply(x,c,n):
@@ -43,7 +45,7 @@ def squareAndMultiply(x,c,n):
 		z=z%n
 		if(c[i] == '1'):
 			z=(z*x)%n
-	return z	
+	return z
 
 def shaHash(fileName):
 	BLOCKSIZE = 65536
@@ -65,13 +67,13 @@ def sign():
 		print("Signing the file...")
 		fileName = sys.argv[1]
 		
-		file1 = open("key.txt","r")
-		file2 = open("secretkey.txt","r")
-		p=int(file1.readline().rstrip())
-		q=int(file1.readline().rstrip())
-		g=int(file1.readline().rstrip())
-		h=int(file1.readline().rstrip())
-		a=int(file2.readline().rstrip())
+		with open("key.txt","r", encoding="utf-8") as file1:
+			p=int(file1.readline().rstrip())
+			q=int(file1.readline().rstrip())
+			g=int(file1.readline().rstrip())
+			h=int(file1.readline().rstrip())
+		with open("secretkey.txt","r", encoding="utf-8") as file2:
+			a=int(file2.readline().rstrip())
 		
 		loop = True
 		while loop:
@@ -79,7 +81,7 @@ def sign():
 			c1 = squareAndMultiply(g,r,p)
 			c1 = c1%q
 			c2 = shaHash(fileName) + (a*c1)
-			Rinverse = computeInverse(r,q)
+			Rinverse = inverse(r,q)
 			c2 = (c2*Rinverse)%q
 			
 			if(c1 != 0 and c2 != 0):
@@ -88,9 +90,9 @@ def sign():
 		#print(shaHash(fileName))	
 		#print(c1)	
 		#print(c2)	
-		file = open("signature.txt","w")
-		file.write(str(c1))
-		file.write("\n")
-		file.write(str(c2))
+		with open("signature.txt","w", encoding="utf-8") as file:
+			file.write(str(c1))
+			file.write("\n")
+			file.write(str(c2))
 		print("cipher stored at signature.txt")
 sign()

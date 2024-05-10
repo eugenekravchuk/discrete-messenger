@@ -37,7 +37,7 @@ if __name__ == "__main__":
     public_key, private_key = generate_keys()
 
     # Повідомлення для шифрування
-    message = "Text"
+    message = "This is a text with a example of usage and random words in it! 1234567890 123 and numbers 23345.."
 
     # Шифруємо повідомлення за допомогою публічного ключа
     ciphertext = encrypt(message, public_key)
