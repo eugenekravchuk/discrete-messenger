@@ -3,7 +3,7 @@ The messenger is a secure messaging platform designed to ensure the confidential
 Built with robust encryption protocols, this messenger prioritizes user privacy while providing a seamless messaging experience.<br/>
 
 # Table of contents
-- [Installation](#installation)
+- [Installation](#installation-process)
 - [App Functionality](#app-functionality)
   - [Registration and Login](#registration)
   - [Search](#search)
@@ -13,9 +13,7 @@ Built with robust encryption protocols, this messenger prioritizes user privacy 
   - [Decryption](#decryption)
 - [Responsibilities](#responsibilities)
 
-# Something
-
-<a name="installation"/>
+<a name="installation-process"/>
 # Installation
 ```python
 git clone https://github.com/eugenekravchuk/discrete-messenger/
