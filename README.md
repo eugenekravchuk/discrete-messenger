@@ -2,17 +2,6 @@
 The messenger is a secure messaging platform designed to ensure the confidentiality and privacy of your conversations. <br/>
 Built with robust encryption protocols, this messenger prioritizes user privacy while providing a seamless messaging experience.<br/>
 
-# Table of contents
-- [Installation](#installation-process)
-- [App Functionality](#app-functionality)
-  - [Registration and Login](#registration)
-  - [Search](#search)
-  - [Choosing Algorithm](#choosing-algorithm)
-  - [Sending a Message](#sending)
-  - [Server Side](#server)
-  - [Decryption](#decryption)
-- [Responsibilities](#responsibilities)
-
 <a name="installation-process"/>
 # Installation
 ```python
