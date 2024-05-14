@@ -1,15 +1,14 @@
 # Encrypted Messenger
-The messenger is a secure messaging platform designed to ensure the confidentiality and privacy of your conversations. <br/>
-Built with robust encryption protocols, this messenger prioritizes user privacy while providing a seamless messaging experience.<br/>
+The messenger is a secure messaging platform designed to ensure the confidentiality and privacy of your conversations. Built with robust encryption protocols, this messenger prioritizes user privacy while providing a seamless messaging experience.
 
-<a name="installation-process"/>
-# Installation
+## Installation
 ```python
 git clone https://github.com/eugenekravchuk/discrete-messenger/
-git cd frontend
+cd frontend
 npm install 
 npm start
 ```
+
 <a name="app-functionality"/>
 # App functionality
 <a name="registration"/>
