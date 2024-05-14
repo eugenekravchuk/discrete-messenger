@@ -125,19 +125,19 @@ class RCS:
         return ''.join(decrypted_chunks)
 
 
-# Example usage
-rcs = RCS()
+# # Example usage
+# rcs = RCS()
 
-# Generate keys
-public_key, p, q = rcs.generate_keypair(1024)
-n = public_key
-print("Public key (n):", n)
+# # Generate keys
+# public_key, p, q = rcs.generate_keypair(1024)
+# n = public_key
+# print("Public key (n):", n)
 
-# Encrypt plaintext
-plaintext = file_read("D:\Дискретна\Testing\RCS\\tygrolovy.txt")
-ciphertexts = rcs.encrypt(plaintext, n)
-print("Encrypted ciphertexts:", ciphertexts)
+# # Encrypt plaintext
+# plaintext = file_read("D:\Дискретна\Testing\RCS\\tygrolovy.txt")
+# ciphertexts = rcs.encrypt(plaintext, n)
+# print("Encrypted ciphertexts:", ciphertexts)
 
-# Decrypt ciphertext
-decrypted = rcs.decrypt(ciphertexts, p, q, n)
-print("Decrypted plaintext:", decrypted)
+# # Decrypt ciphertext
+# decrypted = rcs.decrypt(ciphertexts, p, q, n)
+# print("Decrypted plaintext:", decrypted)
