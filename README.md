@@ -4,7 +4,12 @@ Built with robust encryption protocols, this messenger prioritizes user privacy 
 
 <a name="installation-process"/>
 # Installation
-
+```python
+git clone https://github.com/eugenekravchuk/discrete-messenger/
+git cd frontend
+npm install 
+npm start
+```
 <a name="app-functionality"/>
 # App functionality
 <a name="registration"/>
