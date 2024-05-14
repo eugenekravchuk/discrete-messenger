@@ -57,7 +57,7 @@ Sofia Sampara - DSA and ECCDSA development and testing, creating graphs of compe
 Iryna Denysova - implementation and testing of algorithm RSA, presentation<br/>
 Ivan Shynkarenko - ElGamal and RCS development and testing<br/>
 
-[Посилання на опис роботи алгоритмів]([https://github.com/eugenekravchuk](https://docs.google.com/document/d/1O1VqhuoDpnuu_mY0HOe9gzrCFR7H3yuTE3aHXMRhStM/edit))
+[Посилання на опис роботи алгоритмів](https://github.com/eugenekravchuk](https://docs.google.com/document/d/1O1VqhuoDpnuu_mY0HOe9gzrCFR7H3yuTE3aHXMRhStM/edit)
 
  
 
