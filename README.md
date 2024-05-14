@@ -12,7 +12,8 @@ Built with robust encryption protocols, this messenger prioritizes user privacy 
   - [Server Side](#server)
   - [Decryption](#decryption)
 - [Responsibilities](#responsibilities)
-<br/>
+
+# Something
 
 <a name="installation"/>
 # Installation
