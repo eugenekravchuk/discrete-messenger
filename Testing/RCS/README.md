@@ -10,3 +10,5 @@ c = m² mod n.
 y(p) * p - y(q) * q = 1
 знаходять y(p) та y(q)
 потім з китайської теореми знаходять чотири числа і одна з цих відповідей і буде початковим повідомленням
+<img width="872" alt="Знімок екрана 2024-05-14 о 09 37 00" src="https://github.com/eugenekravchuk/discrete-messenger/assets/149359127/7eafb6e7-3ece-4196-8654-1b3676832f73">
+<img width="767" alt="Знімок екрана 2024-05-14 о 09 39 31" src="https://github.com/eugenekravchuk/discrete-messenger/assets/149359127/a6da5a74-3b9c-4e6b-9839-a0da3ae3254a">
