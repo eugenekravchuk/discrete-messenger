@@ -11,40 +11,40 @@ npm start
 ```
 
 # Registration and login
-If you have an account, you can login to the messenger<br/>
-![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/f5258171-2917-48b3-acb8-b12a2913584d)<br/><br/>
+If you have an account, you can login to the messenger<br/><br/>
+![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/f5258171-2917-48b3-acb8-b12a2913584d)<br/>
 
 If you don't, go to the register page<br/>
 When you go to registration, all four key are generated<br/>
-So you have to wait a little bit<br/>
-![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/92583678-0123-43ef-ab09-faf3dfdb2a3f)<br/><br/>
+So you have to wait a little bit<br/><br/>
+![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/92583678-0123-43ef-ab09-faf3dfdb2a3f)<br/>
 
-When you filled all the data and pushed sign up button - all the keys appear on local host (You have to add avatar!)<br/>
+When you filled all the data and pushed sign up button - all the keys appear on local host (You have to add avatar!)<br/><br/>
 ![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/a7c414a4-f201-49f6-a8f7-d8640e74ccac)<br/>
 
 # Search
 To start a conversation you have to find an account<br/>
-For that use a search field:<br/>
-![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/dd7aa34a-0c60-4cb1-ad55-61ea9c05f7b9)<br/><br/>
+For that use a search field:<br/><br/>
+![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/dd7aa34a-0c60-4cb1-ad55-61ea9c05f7b9)<br/>
 
 To begin a conversation, click on a search result and then click on a person<br/>
 
 # Choosing Algorithm
-Before writing a message and sending, you can choose an encoding algorithm<br/>
-![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/7b4ddfcc-75be-4a89-b861-b726d81bfa3a)<br/><br/>
+Before writing a message and sending, you can choose an encoding algorithm<br/><br/>
+![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/7b4ddfcc-75be-4a89-b861-b726d81bfa3a)<br/>
 
-Also you can send a photos with text<br/>
+Also you can send a photos with text<br/><br/>
 ![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/0cadcfc5-87f1-4c85-bbca-e59220676dea)<br/>
 
 # Sending a message
-When you choose an algorithm, send a message:<br/>
-![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/2669f1aa-cf2e-4242-9932-17a4eccbb647)<br/><br/>
+When you choose an algorithm, send a message:<br/><br/>
+![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/2669f1aa-cf2e-4242-9932-17a4eccbb647)<br/>
 
-Beneath every message there is a sign of verification by DSA algorithm and type of algorithm that encoded text:<br/>
+Beneath every message there is a sign of verification by DSA algorithm and type of algorithm that encoded text:<br/><br/>
 ![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/d75cf5be-126a-4ba6-84b6-0616b9d5bddc)<br/>
 
 # Server side
-The data on server is entirely encrypted!<br/>
+The data on server is entirely encrypted!<br/><br/>
 ![image](https://github.com/eugenekravchuk/discrete-messenger/assets/81439861/f4503828-5b6d-4cfc-9085-0ab1b966e8c2)<br/>
 
 # Decryption
