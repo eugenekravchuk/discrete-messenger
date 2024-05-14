@@ -53,11 +53,9 @@ User decrypts every message individually using a private key in the local storag
 
 # Responcibilities
 [Eugene Kravhuk](https://github.com/eugenekravchuk) - Application development<br/>
-Sofia Sampara - <br/>
-Iryna Denysova - <br/>
-Ivan Shynkarenko - <br/>
- 
+Sofia Sampara - DSA and ECCDSA development and testing, creating graphs of comperison of algorithms<br/>
+Iryna Denysova - implementation and testing of algorithm RSA, presentation<br/>
+Ivan Shynkarenko - ElGamal and RCS development and testing<br/>
 
-
-
-
+[Посилання на опис роботи алгоритмів](https://github.com/eugenekravchuk]
+https://docs.google.com/document/d/1O1VqhuoDpnuu_mY0HOe9gzrCFR7H3yuTE3aHXMRhStM/edit?usp=sharing
